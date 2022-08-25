@@ -1,0 +1,78 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500&display=swap');
+
+
+/* Similar Style  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+
+
+/* Header  */
+
+
+
+
+
+
+/* Banner  */
+
+
+
+/* Albums */
+
+
+/* Packages  */
+    .card {
+        border: 1px solid rgba(211, 211, 211, 0.096);
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+
+    .list {
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .list-awesome {
+        background-color:aliceblue;
+    }
+    .list-span{
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    .button button {
+        background-color: rgba(202, 122, 24, 0.144);
+        color: rgb(113, 115, 241);
+    }
+
+
+/* Client Review  */
+    @media screen and (min-width: 320px) and (max-width: 576px){
+        .row>* {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+/* Frequent Asked Question  */
+
+
+/* Footer */
+
+footer {
+    background-color: #0B0D17;
+    color: antiquewhite;
+}
+
+.social-link img {
+    width: 120px;
+}
+
+.footer {
+
+}
